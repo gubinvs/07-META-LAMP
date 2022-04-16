@@ -1,0 +1,37 @@
+.comfort-room-block {
+  width: 280px;
+}
+
+.comfort-room-block__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.comfort-room-block__item {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(31, 32, 65, 0.1);
+}
+
+.comfort-room-block__item:not(:last-of-type) {
+  margin-bottom: 23px;
+}
+
+.item-img {
+  margin-right: 10px;
+}
+
+.item-discriotion__title,
+.item-discriotion__discr {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.item-discriotion__discr {
+  font-weight: 400;
+  color: rgba(31, 32, 65, 0.75);
+}/*# sourceMappingURL=comfort_room_list.css.map */

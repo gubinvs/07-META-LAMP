@@ -1,0 +1,88 @@
+input {
+  padding: 0;
+  margin: 0;
+}
+
+.expandable-checkbox-block {
+  width: 266px;
+}
+
+.checkbox-block__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+  background-image: url(../img/icon/expand_more.svg);
+  background-repeat: no-repeat;
+  background-position: center right 16px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.check-block-ol {
+  background-image: url(../img/icon/expand_more-ol.svg);
+  margin-bottom: 17.44px;
+}
+
+.check-block-form {
+  display: flex;
+  flex-direction: column;
+  width: 266px;
+  align-items: flex-start;
+}
+
+.check-block-form__item {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.check-block-form__item:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+
+.checkbox-lable {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(31, 32, 65, 0.5);
+}
+
+.custom-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.custom-checkbox + label {
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-content: flex-start;
+  user-select: none;
+}
+
+.custom-checkbox + label::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 4px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.custom-checkbox:checked + label::before {
+  border-color: #BC9CFF;
+  background-image: url("../img/icon/checket.svg");
+}/*# sourceMappingURL=exp-check_ol.css.map */

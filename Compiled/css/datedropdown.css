@@ -1,0 +1,24 @@
+.steam-date-block {
+  display: flex;
+}
+
+.form-element-block__mini {
+  width: auto !important;
+}
+
+.form-element-block__mini:not(:last-of-type) {
+  margin-right: 20px;
+}
+
+.input-block__mini {
+  width: 150px !important;
+  background-image: url(../img/icon/expand_more.svg);
+  background-repeat: no-repeat;
+  background-position: center right 16px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.input-block__mini:focus {
+  background-image: none;
+}/*# sourceMappingURL=datedropdown.css.map */

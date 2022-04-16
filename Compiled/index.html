@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.svg">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css"><!-- . -->
+    <title>Главная страница сайта</title>
+  </head>
+  <body><img class="logo-page-img" src="img/icon/logo_page.svg">
+    <div class="page-block-element">
+      <div class="section-elements-left">
+        <ul class="section-elements__list">
+          <li class="section-elements__item">
+            <form class="form-element-block" action="#">
+              <div class="text-label">
+                <label class="text-label__left" for="email">TEXT FIELD</label>
+                <div class="text-label__right">DEFAULT</div>
+              </div>
+              <input class="input input-block" type="email" id="email" placeholder="Email">
+            </form>
+          </li>
+          <li class="section-elements__item">
+            <form class="form-element-block" action="#">
+              <div class="text-label">
+                <label class="text-label__left" for="email">TEXT FIELD</label>
+                <div class="text-label__right">HOVER / FOCUS
+                </div>
+              </div>
+              <input class="input-hover input-block" type="email" id="email" placeholder="This is pretty awesome">
+            </form>
+          </li>
+          <li class="section-elements__item">
+            <form action="#"> 
+              <div class="dropdown-block form-element-block">
+                <label class="dropdown-lable text-label__left" for="dropdown">DROPDOWN</label>
+                <div class="dropdown-block__text_right text-label__right"></div>
+              </div>
+              <select class="dropdown-form__list input-block" id="dropdown">
+                <option selected>Сколько гостей</option>
+                <option>ВЗРОСЛЫЕ</option>
+                <option>ДЕТИ</option>
+                <option>МЛАДЕНЦЫ</option>
+              </select>
+            </form>
+          </li>
+          <li class="section-elements__item">
+            <form class="textfield-form form-element-block" action="#">
+              <div class="text-label">
+                <label class="text-label__left" for="date">MASKED TEXT FIELD</label>
+                <div class="text-label__right"> </div>
+              </div>
+              <input class="input-block" type="text" id="date" placeholder="ДД-ММ-ГГГГ" onfocus="(this.type='date')" onblur="(this.type='text')">
+            </form>
+          </li>
+          <li class="section-elements__item">
+            <div class="steam-date-block">
+              <form class="form-element-block form-element-block__mini" action="#">
+                <label class="text-label__left" for="date-dropdown-left">DATE DROPDOWN</label>
+                <input class="input-block input-block__mini" type="text" placeholder="ДД-ММ-ГГГГ" onfocus="(this.type='date')" onblur="(this.type='text')">
+              </form>
+              <form class="form-element-block form-element-block__mini" action="#">
+                <label class="text-label__left" for="date-dropdown-left">DATE DROPDOWN</label>
+                <input class="input-block input-block__mini" type="text" placeholder="19.08.2019" onfocus="(this.type='date')" onblur="(this.type='text')">
+              </form>
+            </div>
+          </li>
+          <li class="section-elements__item">
+            <form class="filter-dropdown form-element-block" action="#">
+              <div class="text-label">
+                <label class="text-label__left" for="date">FILTER DATE DROPDOWN</label>
+                <div class="text-label__right"> </div>
+              </div>
+              <input class="filter-dropdown__input input-block" type="text" id="date" placeholder="19 авг - 23 авг" onfocus="(this.type='date')" onblur="(this.type='text')">
+            </form>
+          </li>
+          <li class="section-elements__item">
+            <form class="subscription-form form-element-block" action="#">
+              <div class="text-label">
+                <label class="text-label__left" for="email">SUBSRIPTION TEXT FIELD</label>
+                <div class="text-label__right"> </div>
+              </div>
+              <input class="subscription-form__input input-block" type="text" id="email" placeholder="Email">
+            </form>
+          </li>
+          <li class="section-elements__item">
+            <form action="#"> 
+              <div class="dropdown-block form-element-block" id="dropdown-block-mini">
+                <label class="dropdown-lable text-label__left" for="dropdown">DROPDOWN</label>
+                <div class="dropdown-block__text_right text-label__right">DEFAULT</div>
+              </div>
+              <select class="dropdown-form__list input-block input-block-mini" id="dropdown">
+                <option selected>2 спальни, 2 кровати...</option>
+                <option>ВЗРОСЛЫЕ</option>
+                <option>ДЕТИ</option>
+                <option>МЛАДЕНЦЫ</option>
+              </select>
+            </form>
+          </li>
+          <li class="section-elements__item">
+            <form class="dropdown-form-mini" action="#"> 
+              <div class="dropdown-block-mini">
+                <label class="dropdown-lable-mini text-label__left" for="dropdown">DROPDOWN</label>
+                <div class="dropdown-block__text_right text-label__right">EXPANDED</div>
+              </div>
+              <select class="input-block input-block-mini dropdown-select-list" id="dropdown">
+                <option selected>2 спальни, 2 кровати...</option>
+                <option>ВЗРОСЛЫЕ</option>
+                <option>ДЕТИ</option>
+                <option>МЛАДЕНЦЫ</option>
+              </select>
+            </form>
+            <form class="drop-down-list" action="#">
+              <ul class="drop-down-list__list"> 
+                <li class="drop-down-list__item">
+                  <div class="drop-down-list__item_name">CПАЛЬНИ</div>
+                  <div class="drop-down-list__item_circle">-</div>
+                  <div class="drop-down-list__item_number"></div>
+                  <div class="drop-down-list__item_circle">+</div>
+                </li>
+                <li class="drop-down-list__item">
+                  <div class="drop-down-list__item_name">КРОВАТИ</div>
+                  <div class="drop-down-list__item_circle">-</div>
+                  <div class="drop-down-list__item_number"></div>
+                  <div class="drop-down-list__item_circle">+</div>
+                </li>
+                <li class="drop-down-list__item">
+                  <div class="drop-down-list__item_name">ВАННЫЕ КОМНАТЫ</div>
+                  <div class="drop-down-list__item_circle">-</div>
+                  <div class="drop-down-list__item_number"></div>
+                  <div class="drop-down-list__item_circle">+</div>
+                </li>
+              </ul>
+            </form>
+          </li>
+          <li class="section-elements__item">
+            <div class="expandable-checkbox-block">
+              <div class="checkbox-block__title">EXPANDABLE CHECKBOX LIST</div>
+            </div>
+          </li>
+          <li class="section-elements__item">
+            <div class="expandable-checkbox-block">
+              <div class="checkbox-block__title check-block-ol">EXPANDABLE CHECKBOX LIST</div>
+            </div>
+            <form class="check-block-form">
+              <ul class="check-block-form__list"> 
+                <li class="check-block-form__item">
+                  <input class="custom-checkbox" type="checkbox" name="breakfast" id="breakfast">
+                  <label class="checkbox-lable" for="breakfast">Завтрак</label>
+                </li>
+                <li class="check-block-form__item">
+                  <input class="custom-checkbox" type="checkbox" name="desk" id="desk">
+                  <label class="checkbox-lable" for="desk">Письменный стол</label>
+                </li>
+                <li class="check-block-form__item">
+                  <input class="custom-checkbox" type="checkbox" name="сhair" id="сhair">
+                  <label class="checkbox-lable" for="сhair">Стул для кормления </label>
+                </li>
+                <li class="check-block-form__item">
+                  <input class="custom-checkbox" type="checkbox" name="сrib" id="сrib">
+                  <label class="checkbox-lable" for="сrib">Кроватка</label>
+                </li>
+                <li class="check-block-form__item">
+                  <input class="custom-checkbox" type="checkbox" name="television" id="television">
+                  <label class="checkbox-lable" for="television">Телевизор </label>
+                </li>
+                <li class="check-block-form__item">
+                  <input class="custom-checkbox" type="checkbox" name="shampoo" id="shampoo">
+                  <label class="checkbox-lable" for="shampoo">Шампунь</label>
+                </li>
+              </ul>
+            </form>
+          </li>
+          <li class="section-elements__item">
+            <div class="comfort-room-block"> 
+              <ul class="comfort-room-block__list"> 
+                <li class="comfort-room-block__item"> <img class="item-img" src="img/icon/insert_emoticon.svg" alt="Улыбающийся смайлик, передает довольное впечатление">
+                  <div class="item-discriotion">
+                    <div class="item-discriotion__title">Комфорт</div>
+                    <p class="item-discriotion__discr">Шумопоглощающие стены</p>
+                  </div>
+                </li>
+                <li class="comfort-room-block__item"> <img class="item-img" src="img/icon/location_city.svg" alt="Логотип в виде многоэтажного уютного дома">
+                  <div class="item-discriotion">
+                    <div class="item-discriotion__title">Удобство</div>
+                    <p class="item-discriotion__discr">Окно в каждой из спален</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="section-element-center">
+        <ul class="section-element-center__list"> 
+          <li class="section-element-center__item">
+            <div class="checkbox-buttons-block">
+              <div class="checkbox-buttons-block__title">CHECKBOX BUTTONS</div>
+              <form class="buttons-block-form">
+                <ul class="buttons-block-form__list"> 
+                  <li class="buttons-block-form__item">
+                    <input class="custom-checkbox" type="checkbox" name="smoke" id="smoke">
+                    <label class="checkbox-lable" for="smoke">Можно курить</label>
+                  </li>
+                  <li class="buttons-block-form__item">
+                    <input class="custom-checkbox" type="checkbox" name="animal" id="animal">
+                    <label class="checkbox-lable" for="animal">Можно с питомцами</label>
+                  </li>
+                  <li class="buttons-block-form__item">
+                    <input class="custom-checkbox" type="checkbox" name="guests" id="guests">
+                    <label class="checkbox-lable" for="guests">Можно пригласить гостей <br> (до 10 человек)</label>
+                  </li>
+                </ul>
+              </form>
+            </div>
+          </li>
+          <li class="section-element-center__item">
+            <form class="radio-buttons-form" action="#">
+              <div class="radio-buttons-form__title">RADIO BUTTONS</div>
+              <div class="radio-buttons-form__input-block">
+                <input class="radio-buttons-form__input custom-radio" id="man" type="radio" checked>
+                <label class="input-block__lable" for="man">Мужчина</label>
+                <input class="radio-buttons-form__input radio-buttons-form__input_check custom-radio" id="woman" type="radio">
+                <label class="input-block__lable" for="woman">Женщина</label>
+              </div>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+.expandable-checkbox-block {
+  width: 266px;
+}
+
+.checkbox-block__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+  background-image: url(../img/icon/expand_more.svg);
+  background-repeat: no-repeat;
+  background-position: center right 16px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}/*# sourceMappingURL=exp-xheckbox.css.map */
